@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-img = cv2.imread('Folha projeto 3.JPG')
+img = cv2.imread('img_folha_2.JPG')
 
 img_blur = cv2.GaussianBlur(img, (5, 5), 0)
 
